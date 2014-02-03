@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='C:/Windows/System32'
+let g:netrw_dirhist_2='C:/Users/Niladri/vimfiles'
+let g:netrw_dirhist_3='C:/Windows/System32'
+let g:netrw_dirhist_4='C:/Windows/System32/%APPDATA%'
