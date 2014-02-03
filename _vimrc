@@ -1,4 +1,5 @@
 syntax on
+cd $HOME
 colo darkblue
 "set nocp
 
@@ -56,6 +57,7 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
+Bundle "scrooloose/nerdtree"
 " non-GitHub repos
 Bundle 'git://git.wincent.com/command-t.git'
 
