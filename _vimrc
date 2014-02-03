@@ -31,6 +31,7 @@ set completeopt=menuone,menu,longest,preview
 
 "vundle
 set nocompatible              " be iMproved
+set backspace=2
 filetype off                  " required!
 
 set rtp+=$HOME/vimfiles/bundle/vundle/
@@ -58,6 +59,7 @@ Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
 Bundle "scrooloose/nerdtree"
+Bundle "vim-scripts/taglist.vim"
 " non-GitHub repos
 Bundle 'git://git.wincent.com/command-t.git'
 
