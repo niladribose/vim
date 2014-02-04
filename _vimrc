@@ -1,6 +1,8 @@
 syntax on
 cd $HOME
 colo darkblue
+autocmd BufWritePost *.cpp :TlistUpdate
+set autochdir
 "set nocp
 
 "filetype plugin on
@@ -10,7 +12,7 @@ map <C-Right> <C-w><Right>
 map <C-Left> <C-w><Left>
 " Switch to alternate file
 map <C-Tab> :bnext<cr>
-map <C-S-Tab> :bprevious<cr>
+map <C-S-Tab> :bprevious<crset autochdir>
 map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " configure tags - add additional tags here or comment out not-used ones
